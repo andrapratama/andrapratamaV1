@@ -51,6 +51,16 @@ nav {
     font-size: 12px;
 }
 
+.menu-social-media {
+    display: flex;
+}
+
+.menu-social-media li a {
+    padding: 10px 15px;
+    color: #6c707c;
+    font-size: 12px;
+}
+
 .lang {
     color: #292929;
 }
