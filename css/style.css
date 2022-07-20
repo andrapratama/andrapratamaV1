@@ -28,7 +28,7 @@ a {
     box-sizing: border-box;
     background-color: #edf1fd;
     position: relative;
-    background-image: url("../images/bg.png");
+    /* background-image: url("../images/bg.png"); */
     background-repeat: no-repeat;
     background-size: 1330px;
     background-position: right bottom;
