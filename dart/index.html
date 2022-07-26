@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
     <link rel="manifest" href="../favicon/site.webmanifest">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="themes/css/blackboard.css" rel="stylesheet" type="text/css" media="screen">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/Jquery.js"></script>
     <script type="text/javascript">
@@ -32,12 +33,31 @@
             <ul class="menu">
                 <li><a href="/index.html">Beranda</a></li>
                 <li><a href="#" class="active">Dart</a></li>
+                <li><a href="/index.html#galeri">Galeri</a></li>
+                <li><a href="/index.html#about">Tentang</a></li>
             </ul>
             <a href="#" class="lang">ID</a>
         </nav>
 
+        <div class="content">
+            <h1>Variables</h1>
+            <p class="details">varibel digunakan untuk menampung sebuah data</p>
+        </div>
+
+        <pre style="width: 900px;top:30%">
+        <code data-language="java">
+            void main() {
+                var data = 'Ini data';
+                print(data);
+              }
+        </code>
+        </pre>
+
     </section>
 
+    <script src="dist/rainbow.js"></script>
+    <script src="src/language/generic.js"></script>
+    <script src="src/language/java.js"></script>
 </body>
 
 </html>
