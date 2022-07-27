@@ -1,6 +1,6 @@
 #main-dart {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #edf1fd;
     position: relative;
@@ -13,13 +13,12 @@
 .s-b-container-dart {
     display: flex;
     justify-content: left;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .s-box-dart-menu-left {
     background-color: #2b2b2b;
     width: 350px;
-    height: 500px;
     margin: 20px;
     border-radius: 5px;
     overflow: hidden;
@@ -29,13 +28,24 @@
 
 .s-box-dart-menu-content {
     background-color: #f4f7ff;
-    width: 1050px;
-    height: 500px;
+    width: 90%;
     margin: 20px;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
     position: relative;
+    color: #000;
+    padding: 20px;
+}
+
+.s-box-dart-menu-content p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2b2b2b;
 }
 
 .menu-left {
