@@ -1,44 +1,142 @@
-Class
-Object
-Field
-Method
-Method Expression Body
-Extension Method
-Operator
-Constructor
-Variable Shadowing
-This Keyword
-Initializing Format Parameter
-Named Parameter
-Redirecting Constructor
-Initializer List
-Constant Constructor
-Factory Constructor
-Cascade Notation
-Inheritance
-Method Overriding
-Field Overriding
-Super Keyword
-Super Constructor
-Object Class
-Polymorphism
-Type Check dan Casts
-Import
-Abstract Class
-Abstract Method
-Access Modifier
-Getter dan Setter
-Interface
-Multiple Interface Inheritance
-Mixin
-ToString Method
-Equals Operator
-HashCode Getter
-No Such Method
-Callable Class
-Typedef
-Static
-Enum
-Exception
-Error
-Metadata
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Andra Pratama | Dart</title>
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="themes/css/blackboard.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/Jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('.toggle').toggleClass('active')
+                $('nav ul').toggleClass('active-menu')
+            })
+        })
+    </script>
+</head>
+
+<body>
+
+    <!-- MAIN  -->
+    <section id="main-dart">
+        <nav>
+            <a href="/index.html" class="logo">Andra</a>
+            <div class="toggle"></div>
+            <ul class="menu">
+                <li><a href="/index.html">Beranda</a></li>
+                <li><a href="#" class="active">Dart</a></li>
+                <li><a href="/index.html#galeri">Galeri</a></li>
+                <li><a href="/index.html#about">Tentang</a></li>
+            </ul>
+            <a href="#" class="lang">ID</a>
+        </nav>
+
+        <div class="s-heading">
+            <h1>Dart</h1>
+            <p>Belajar Bahasa Pemrograman Dart Dari Dasar Sampai Advanced</p>
+        </div>
+        <!-- services-box-container -->
+
+        <div class="s-b-container-dart">
+
+            <div class="s-box-dart-menu-left">
+                <ul class="menu-left">
+                    <li><a href="#">Class</a></li>
+                    <li><a href="#">Object</a></li>
+                    <li><a href="#">Field</a></li>
+                    <li><a href="#">Method</a></li>
+                    <li><a href="#">Method Expression Body</a></li>
+                    <li><a href="#">Extension Method</a></li>
+                    <li><a href="#">Operator</a></li>
+                    <li><a href="#">Constructor</a></li>
+                    <li><a href="#">Variable Shadowing</a></li>
+                    <li><a href="#">This Keyword</a></li>
+                    <li><a href="#">Initializing Format Parameter</a></li>
+                    <li><a href="#">Named Parameter</a></li>
+                    <li><a href="#">Redirecting Constructor</a></li>
+                    <li><a href="#">Initializer List</a></li>
+                    <li><a href="#">Constant Constructor</a></li>
+                    <li><a href="#">Factory Constructor</a></li>
+                    <li><a href="#">Cascade Notation</a></li>
+                    <li><a href="#">Inheritance</a></li>
+                    <li><a href="#">Method Overriding</a></li>
+                    <li><a href="#">Field Overriding</a></li>
+                    <li><a href="#">Super Keyword</a></li>
+                    <li><a href="#">Super Constructor</a></li>
+                    <li><a href="#">Object Class</a></li>
+                    <li><a href="#">Polymorphism</a></li>
+                    <li><a href="#">Type Check dan Casts</a></li>
+                    <li><a href="#">Import</a></li>
+                    <li><a href="#">Abstract Class</a></li>
+                    <li><a href="#">Abstract Method</a></li>
+                    <li><a href="#">Access Modifier</a></li>
+                    <li><a href="#">Getter dan Setter</a></li>
+                    <li><a href="#">Interface</a></li>
+                    <li><a href="#">Multiple Interface Inheritance</a></li>
+                    <li><a href="#">Mixin</a></li>
+                    <li><a href="#">ToString Method</a></li>
+                    <li><a href="#">Equals Operator</a></li>
+                    <li><a href="#">HashCode Getter</a></li>
+                    <li><a href="#">No Such Method</a></li>
+                    <li><a href="#">Callable Class</a></li>
+                    <li><a href="#">Typedef</a></li>
+                    <li><a href="#">Static</a></li>
+                    <li><a href="#">Enum</a></li>
+                    <li><a href="#">Exception</a></li>
+                    <li><a href="#">Error</a></li>
+                    <li><a href="#">Metadata</a></li>
+                </ul>
+            </div>
+
+            <div class="s-box-dart-menu-content">
+
+
+                <section id="variable">
+                    <div class="grid-container">
+
+                        <h1>Variabel</h1>
+                        <p>Variabel digunakan untuk menampung data.<br>Variabel harus memiliki tipe data dan nama.
+                        </p>
+
+                        <span>kode</span>
+                        <pre style="width: 591px;">
+                            <code data-language="java">
+void main() {
+    var nomor = 1;
+    var data = 'Item';
+    print(nomor);
+    print(data);
+}
+                            </code>
+                        </pre>
+
+                        <span>hasil</span>
+                        <p>
+                            <img src="../img/variabel.jpg" alt="variabel" />
+                        </p>
+                    </div>
+                </section>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <script src="dist/rainbow.js"></script>
+    <script src="src/language/generic.js"></script>
+    <script src="src/language/java.js"></script>
+</body>
+
+</html>
